@@ -2,7 +2,7 @@ import choicekit
 
 
 def test_top_level_exports_are_explicit() -> None:
-    assert choicekit.__all__ == ["__version__"]
+    assert choicekit.__all__ == ["ConditionalLogit", "__version__"]
 
 
 def test_top_level_exports_exist() -> None:
