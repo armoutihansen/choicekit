@@ -1,6 +1,6 @@
-# ChoiceKit
+# choicekit
 
-ChoiceKit is an early-stage Python package for choice modelling.
+choicekit is an early-stage Python package for choice modeling.
 
 ## Public interface
 
