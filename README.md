@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/logo/choicekit-logo.svg" alt="choicekit logo" width="360">
+  <img src="docs/logo/choicekit-logo.svg" alt="choicekit logo" width="256">
 </p>
 
 # choicekit
