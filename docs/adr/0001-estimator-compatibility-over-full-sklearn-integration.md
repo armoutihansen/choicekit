@@ -1,3 +1,0 @@
-# Estimator compatibility over full scikit-learn integration
-
-choicekit's MVP targets scikit-learn estimator compatibility rather than full compatibility with every scikit-learn model-selection utility. `ConditionalLogit` should follow the estimator protocol through constructor parameters, cloning, learned trailing-underscore attributes, and familiar `fit`, `predict`, `predict_proba`, and `score` methods, while preserving Choice Set semantics through explicit metadata arguments. Direct `GridSearchCV` and `cross_val_score` support are deferred because forcing long-format choice data into row-wise classifier conventions would obscure the model's grouped likelihood and prediction semantics.
